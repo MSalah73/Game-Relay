@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Game Relay
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Busy with adulting and being enslaved to the corporate world. Fear no more! I present to you 'Game relay'. Game Relay is a platform that allows the user to view released and upcoming video games with a click of a button. You don't have to search and or go to Wikipedia's search anymore. Game Relay shows you all your favorite and most anticipated games with just a click. This site is a simplified version of [RAWG](https://rawg.io/). 
 
-### `npm start`
+### Technical Used
+What technologies you used that helped you build this project. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+- React
+- Bootstrap with react
+- Ajax (axios) for API
+- React Routers
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Wireframes
 
-### `npm test`
+My site wireframe is a simplified  version of [this](https://rawg.io/)
+### User Stories
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+User must be able to:
 
-### `npm run build`
+- Search a game
+- View releases of the current month and previous months
+- Filter search result by platform and genres
+- Search game developers
+- search game creators
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Planning and Development Process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Finish a rough draft of the front-end design
+- implement the front-end end
+- add the functionality need one component at a time
 
-### `npm run eject`
+### Problem-Solving Strategy
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Target each component.
+- Make sure to decouple the code into smaller chunks.
+- Read the errors carefully
+- Use google and documentations to fix errors
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Unsolved problems
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Implement the rest of Creator's Page
+- Implement the rest of Developer's page
+- Add videoes and preview gifs to Card elements in the Libraray Component.
+- SideBar component needs a new purpose
+- Fix image loading issue
+- Add users
+- Add users wise list and favorite game list
+- Add subscription to user's email to notify them about game releases
+## APIs Used
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [Video Games Database API RAWG](https://rawg.io/apidocs)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgments and Disclaimers
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This site is only for educational purposes and it's not intended for commercial use.
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ ## References
+Me, myself, and I

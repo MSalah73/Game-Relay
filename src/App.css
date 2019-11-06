@@ -20,3 +20,97 @@
 .App-link {
   color: #09d3ac;
 }
+body{
+    background-color: #151515;
+}
+form{
+}
+.form-control{
+  border-radius: 50px;
+  background-color: #444444;
+  border-color: #444444;
+}
+a{
+  display: ruby block;
+  margin: 0 10px;
+  color: white;
+  text-align: left;
+}
+a:hover{
+  color: #444444;
+  text-decoration: none;
+}
+.col-lg-3{
+  height: 100%;
+}
+.sideMenu{
+  text-align: left;
+  font-size: 25px;
+}
+li{
+  list-style-type: none;
+}
+.card-body{
+  padding: 10px 20px;
+}
+.row{
+  margin: 10px;
+}
+.home{
+  margin-top: 40vh;
+}
+.center{
+  width: 100%;
+  text-align: center;
+}
+.project-title{
+  color: white;
+  margin-bottom: 5vh;
+}
+.col-lg-9{
+  margin-left: 24.5vw;
+}
+.col-lg-3{
+  position: fixed;
+}
+hr{
+  border: 1px solid black;
+  width: -moz-available;
+  margin-top: unset;
+}
+.moreInfo, .sideItems{
+  display: contents;
+}
+.btn-link{
+  color: white;
+}
+.btn-link:hover{
+  text-decoration: none;
+  color: grey;
+}
+.buttons{
+  background-color: #343A40;
+  margin-right: 10px; 
+}
+.creator{
+  margin-top: 45vh;
+}
+.notComing{
+  font-size: 4px;
+}
+@media (max-width: 1000px){
+  .col-lg-9{
+    margin-left: 0;
+  }
+  .col-lg-3{
+    position: inherit;
+  }
+  .sideMenu{
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 768px){
+    form{
+    display: contents;
+  }
+}
