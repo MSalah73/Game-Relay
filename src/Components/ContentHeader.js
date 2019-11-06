@@ -13,7 +13,7 @@ export default class extends Component {
 		  		{e}
 		  </Dropdown.Toggle>
 		  <Dropdown.Menu>
-		    {menu[i].map((e, i) => <Dropdown.Item key={i} onSelect={() => {!i?this.props.genreHandler(e):i === 1? this.props.platformHandler(e) : this.props.releaseHandler(e)  }}>{e}</Dropdown.Item>)}
+		    {menu[i].map((e, j) => <Dropdown.Item key={j} onSelect={() => {!i?this.props.genreHandler(e):i === 1? this.props.platformHandler(e) : this.props.releaseHandler(e)}}>{e}</Dropdown.Item>)}
 		  </Dropdown.Menu>
 		</Dropdown>
 	    </Nav.Item>

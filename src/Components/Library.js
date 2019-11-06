@@ -30,18 +30,23 @@ export default class Library extends Component {
 		})
 	}
 	clickGenreHandler(genre){
+				console.log(genre, 'g')
+
 		let data = this.state.originalData.filter((e, i) => e !== undefined && e.genres !== undefined ? e.genres.some(e => e.name=== genre):false)
 		this.setState({
 			data: data
 		})
 	}
 	clickPlatformHandler(platform){
+		console.log(platform, 'p')
 		let data = this.state.originalData.filter((e, i) => e !== undefined && e.platforms !== undefined ? e.platforms.some(e => e.platform.name=== platform):false)
 		this.setState({
 			data: data
 		})
 	}
 	clickReleaseHandler(releasePriod){
+				console.log(releasePriod, 'r')
+
 		if(releasePriod === "Last 30 days"){
 			let filterDateLast30Days = moment(moment().subtract(30, 'days').format("YYYY-MM-DD")).valueOf()
 			let filterDateToday =  moment(moment().format("YYYY-MM-DD").valueOf()).valueOf()
